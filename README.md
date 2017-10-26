@@ -1,0 +1,2 @@
+# cScM
+C# Cryptopia Manager
