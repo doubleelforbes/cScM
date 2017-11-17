@@ -1,0 +1,14 @@
+C-Sharp Cryptopia Manager 0.2b Change Log
+==============================
+
+Bug Fixes :
+	- Selecting an order past the first item on buy and sell orders will now populate the form with a tally of all orders up to the one selected.
+	- Market History has had duplicate data removed when Private Users loaded their Trade History
+	- Refresh wallets on instant trade.
+	- Buy and Sell buttons were being enabled prematurely.  API Class and API were always locked against this but now the GUI is locked too.
+	- Fee calculation was extreme, however API still shows 20% on all currencies. (I'd always rather quote the fees high and have you pay less than expected)
+	- Fix Open order from problems with zero open orders.
+
+New Features :
+	- Each Private User form has a refresh feature to update the data.
+	- Each Private User form has sortable list columns.
